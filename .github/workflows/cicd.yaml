@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set Up Python
-        uses: actions/stepup-Python@v5
+        uses: actions/setup-Python@v5
         with:
           Python-version: "3.12"
       - name: Install pytest
