@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Set Up Python
-        uses: actions/setup-Python@v5
+        uses: actions/setup-python@v5
         with:
           Python-version: "3.12"
       - name: Install pytest
@@ -15,4 +15,4 @@ jobs:
       - name: Run pytest
         run: pytest
       - name: Test.main.py
-        run: Python main.py
+        run: python main.py
